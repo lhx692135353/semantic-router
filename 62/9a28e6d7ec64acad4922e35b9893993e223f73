@@ -1,0 +1,19 @@
+.github/workflows/fork-test-image.yml
+  s_3f03f0a35ff53b::t_0036912ec60d26 1-46
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "629a28e6d7ec64acad4922e35b9893993e223f73",
+  "prompts": {},
+  "sessions": {
+    "s_3f03f0a35ff53b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ffd39c11-814a-4f9b-a16b-5989292a974a",
+        "model": "litellm-gpt-6.1-sol"
+      },
+      "human_author": "liuhx <liuhx20@lenovo.com>"
+    }
+  }
+}
