@@ -1,0 +1,46 @@
+name: Fork Test Router Image
+
+on:
+  push:
+    branches: [fix/7200-chat-responses-empty-tool-arguments]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  image:
+    if: github.repository == 'lhx692135353/semantic-router'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/free-disk-space
+        with:
+          min-free-gb: '40'
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and publish the fork test image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: tools/docker/Dockerfile.extproc
+          target: vllm-sr
+          platforms: linux/amd64
+          push: true
+          tags: |
+            ghcr.io/lhx692135353/semantic-router/vllm-sr:issue-7200
+            ghcr.io/lhx692135353/semantic-router/vllm-sr:${{ github.sha }}
+          build-args: |
+            ACCELERATOR=cpu
+          labels: |
+            org.opencontainers.image.source=https://github.com/lhx692135353/semantic-router
+            org.opencontainers.image.revision=${{ github.sha }}
+          provenance: false
