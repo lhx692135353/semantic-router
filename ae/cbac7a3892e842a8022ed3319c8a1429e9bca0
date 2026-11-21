@@ -1,0 +1,19 @@
+src/semantic-router/pkg/protocolcodec/stream_chat.go
+  s_3f03f0a35ff53b::t_acd5694048a0a3 269-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "aecbac7a3892e842a8022ed3319c8a1429e9bca0",
+  "prompts": {},
+  "sessions": {
+    "s_3f03f0a35ff53b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ffd39c11-814a-4f9b-a16b-5989292a974a",
+        "model": "litellm-gpt-6.1-sol"
+      },
+      "human_author": "liuhx <liuhx20@lenovo.com>"
+    }
+  }
+}
