@@ -1,0 +1,75 @@
+src/semantic-router/pkg/protocolcodec/stream_chat.go
+  s_3f03f0a35ff53b::t_e343d65ae75427 246-256,258
+  s_3f03f0a35ff53b::t_48f3de353c13f6 269-272
+  s_3f03f0a35ff53b::t_2652a5696cbcca 26
+  s_3f03f0a35ff53b::t_edde531d013070 705-707
+  s_3f03f0a35ff53b::t_de32533f713c63 940-942,944-964
+  s_3f03f0a35ff53b::t_9207e3f9958261 988-994
+  s_3f03f0a35ff53b::t_9adbbccf923e98 614-640
+  s_3f03f0a35ff53b::t_f3fbefef4e70a0 268
+  s_3f03f0a35ff53b::t_33a269c3abfc89 23-25
+  s_3f03f0a35ff53b::t_a19154f7fca94a 27
+  s_3f03f0a35ff53b::t_c0b40845dad86f 15-22
+src/semantic-router/pkg/extproc/processor_protocol_unanswered_tool_call_test.go
+  s_e22e21ed412176::t_2ecce2569f14d7 301
+  s_e22e21ed412176::t_81e9e34525652f 367-368
+  s_e22e21ed412176::t_b0d65ebad0de71 6,8
+  s_e22e21ed412176::t_04cf52210be8fe 217-221
+  s_e22e21ed412176::t_d24325f6f9f3a8 391-393
+  s_e22e21ed412176::t_ad2e6564649f4a 196,198,234-235,237-241,291-295,300,302-311,400-403
+  s_e22e21ed412176::t_940e82aba0705e 151-179,181-195,197,199-216,222-233,236,242-290,296-299,312-366,369-390,394-399,404-421
+  s_e22e21ed412176::t_028ec7a8d2243f 180
+src/semantic-router/pkg/protocolcodec/stream_state_completion.go
+  s_3f03f0a35ff53b::t_0bd76f62023374 196-200
+  s_3f03f0a35ff53b::t_5169236a4b2a43 219
+  s_3f03f0a35ff53b::t_edbb5cff7209fc 216-218,220-224
+  s_3f03f0a35ff53b::t_a10348ae3fee1c 237-241
+src/semantic-router/pkg/protocolcodec/stream_chat_empty_arguments_test.go
+  s_3f03f0a35ff53b::t_aca303865e1a19 115-120,122-124,132-134,138-140,171-176
+  s_3f03f0a35ff53b::t_2f9d93914e09b9 94-95
+  s_3f03f0a35ff53b::t_3154bc03bf3615 121
+  s_3f03f0a35ff53b::t_0b289e3889dda4 160-161
+  s_3f03f0a35ff53b::t_aef01c8695958b 216-221
+  s_3f03f0a35ff53b::t_8c540f9472da45 147-151
+  s_3f03f0a35ff53b::t_615b2b4ad19130 222-227,231-236,240-244
+  s_3f03f0a35ff53b::t_5d2ef71f0b6a19 1-93,96-114,125-131,135,137,141-146,152-159,162-170,177-215,245-250
+  s_3f03f0a35ff53b::t_b309f552a6451b 228-230,237-239
+  s_3f03f0a35ff53b::t_1b9b4655ba0719 136
+src/semantic-router/pkg/protocolcodec/stream_responses_encode.go
+  s_3f03f0a35ff53b::t_9cb50518832939 321
+  s_3f03f0a35ff53b::t_6c8559232fdce8 322-327
+src/semantic-router/pkg/protocolcodec/testdata/golden/capability/252-chat-stream-name-only-tool-call-in.json
+  s_3f03f0a35ff53b::t_0a7933e0c691cd 3-10
+website/docs/installation/protocol-compatibility.md
+  s_3f03f0a35ff53b::t_1543ce5a56273c 1012-1022
+src/semantic-router/pkg/protocolcodec/testdata/golden/capability/252-chat-stream-name-only-tool-call-anthropic-out.json
+  s_3f03f0a35ff53b::t_0e547f7b69ee06 2-6
+src/semantic-router/pkg/protocolcodec/testdata/golden/capability/252-chat-stream-name-only-tool-call-chat-out.json
+  s_3f03f0a35ff53b::t_7baad165649dff 2-6
+src/semantic-router/pkg/protocolcodec/testdata/golden/capability/252-chat-stream-name-only-tool-call-responses-out.json
+  s_3f03f0a35ff53b::t_d7d66188f106e2 1-152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fecb09e296ebc638eb3597ad6b8ce2203a32a29c",
+  "prompts": {},
+  "sessions": {
+    "s_3f03f0a35ff53b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ffd39c11-814a-4f9b-a16b-5989292a974a",
+        "model": "litellm-gpt-6.1-sol"
+      },
+      "human_author": "liuhx <liuhx20@lenovo.com>"
+    },
+    "s_e22e21ed412176": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "81c13ee7-be59-4d09-a557-17f6a36e7ec8",
+        "model": "litellm-gpt-6.1-sol"
+      },
+      "human_author": "liuhx <liuhx20@lenovo.com>"
+    }
+  }
+}
