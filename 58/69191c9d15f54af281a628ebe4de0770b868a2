@@ -1,0 +1,31 @@
+src/semantic-router/pkg/protocolcodec/stream_chat_empty_arguments_test.go
+  s_3f03f0a35ff53b::t_ea07c4211dafe4 183-228
+  s_3f03f0a35ff53b::t_b84554df15e296 262-275
+src/semantic-router/pkg/extproc/processor_protocol_unanswered_tool_call_test.go
+  s_3f03f0a35ff53b::t_582d4ed5e30890 398-449
+website/docs/installation/protocol-compatibility.md
+  s_3f03f0a35ff53b::t_3663bc6eab9d86 1019-1022
+src/semantic-router/pkg/protocolcodec/stream_chat.go
+  s_3f03f0a35ff53b::t_63906a5a8479fe 277-281
+  s_3f03f0a35ff53b::t_40beb2cb3b55bd 636-639
+  s_3f03f0a35ff53b::t_6a66f0423c068b 27
+  s_3f03f0a35ff53b::t_4a4b88c58eaf1f 615-617
+  s_3f03f0a35ff53b::t_a959d22e031c00 973-976
+  s_3f03f0a35ff53b::t_fbae40e1fc3792 26,622
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5869191c9d15f54af281a628ebe4de0770b868a2",
+  "prompts": {},
+  "sessions": {
+    "s_3f03f0a35ff53b": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "ffd39c11-814a-4f9b-a16b-5989292a974a",
+        "model": "litellm-gpt-6.1-sol"
+      },
+      "human_author": "liuhx <liuhx20@lenovo.com>"
+    }
+  }
+}
